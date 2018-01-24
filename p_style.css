@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+
+a:link {
+  color: #B8B8B8;
+  text-decoration: none;
+}
+a:visited {
+  color: #B8B8B8;
+  text-decoration: none;
+}
+a:hover {
+  color:gray;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gray;
+  text-decoration: underline;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 33px;
+    color: gray;
+    /*margin-left: 50px;*/
+}
+
+#css_circle {
+  width: 230px;
+  height: 230px;
+  /*min-height: 6.5em;*/
+  border-radius: 100%;
+  border: 50px solid white;
+}
+#css_rectangle {
+  width: 230px;
+  height: 230px;
+  /*min-height: 6.5em;*/
+  /*border-radius: 100%;*/
+  border: 50px solid white;
+}
+
+#css_plain_circle {
+  width: 230px;
+  height: 230px;
+  background: white;
+  border-radius: 100%;
+  /*border: 100px solid white;*/
+}
+#css_plain_rec {
+    width: 230px;
+    height: 230px;
+    background: white;
+
+    /*color: gray;*/
+
+    margin: 0 0 10px 10px;
+}
+
+.resize-empty.switch-color{
+  border: 50px solid black;
+}
+.resize-plain.switch-color{
+  background: black;
+}
